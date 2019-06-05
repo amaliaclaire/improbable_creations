@@ -9,7 +9,7 @@ body {
   content: '';
   height: 100vh;
   width: 100%;
-  background-image: url(https://media.istockphoto.com/photos/beef-steak-picture-id500466008?k=6&m=500466008&s=612x612&w=0&h=T_n97omp8YzQYFikAOEbn8PgQ5I_ak8pSC5OVQWmM3Y=);
+  background-image: url(https://images.unsplash.com/photo-1470338950318-40320a722782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,15 +29,10 @@ body {
   text-align: center;
 }
 
-.content .logo {
-  height: 180px;
-  width: 180px;
+.title h1{
+  font-size: 100px;
 }
 
-.content .title {
-  font-size: 2.2rem;
-  margin-top: 1rem;
-}
 
 .content .text {
   line-height: 1.7;
@@ -50,6 +45,11 @@ body {
   overflow: hidden;
   padding: 4rem 1rem;
 }
+
+
+
+
+/* landing page */
 
 .grid-3 {
   display: grid;
@@ -85,6 +85,9 @@ footer {
 footer p {
   margin: 0;
 }
+
+
+
 
 /* Small Screens */
 @media (max-width: 560px) {
