@@ -9,23 +9,13 @@ body {
   content: '';
   height: 100vh;
   width: 100%;
-  background-image: url(https://image.ibb.co/gzOBup/showcase.jpg);
+  background-image: url(https://media.istockphoto.com/photos/beef-steak-picture-id500466008?k=6&m=500466008&s=612x612&w=0&h=T_n97omp8YzQYFikAOEbn8PgQ5I_ak8pSC5OVQWmM3Y=);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-
-}
-/*
-.showcase:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
 }
 
-.showcase:hover .content {
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-} */
 
 .content {
   position: absolute;
@@ -37,7 +27,6 @@ body {
   width: 300px;
   height: 350px;
   text-align: center;
-  transition: all 1000ms;
 }
 
 .content .logo {
