@@ -112,6 +112,11 @@ margin: 0;
 /* end section  */
 
 
+/* menu  */
+.menu-title-introduction {
+  text-align: center; 
+}
+/* end of menu */
 
 .center {
   text-align: center;
