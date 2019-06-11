@@ -5,6 +5,45 @@ body {
   font-family: ''Roboto Slab', serif', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/* footer */
+
+* {
+ box-sizing: border-box;
+}
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+footer {
+  padding-top: 10rem;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ padding: 10rem;
+}
+
+/* end of footer */
+
+
+
+#container {
+   height:100%;
+}
+
 .showcase {
   content: '';
   height: 100vh;
@@ -168,9 +207,17 @@ padding-right: 1.1rem;
 /* footer */
 
 
-
-.bootstrap-footer {
-height: 15rem; 
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+.bootstrap-container {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
 }
 /* end of footer */
 
