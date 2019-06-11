@@ -161,8 +161,28 @@ padding-right: 1.1rem;
 
 /* carousel */
 .carousel {
-  background-color: pink; 
+  background-color: pink;
 }
+
+
+/* footer */
+
+
+
+.bootstrap-footer {
+height: 15rem; 
+}
+/* end of footer */
+
+.copyright {
+  color: white;
+}
+
+.fa-ellipsis-h {
+  color: white;
+  padding: 2rem 0;
+}
+
 
 
 .center {
