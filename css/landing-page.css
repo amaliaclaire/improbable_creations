@@ -28,8 +28,12 @@ body {
  padding-bottom: 100px; /* height of your footer */
 }
 
+#sticky-footer {
+  padding: 100px;
+}
+
 footer {
-  padding-top: 10rem;
+ padding-top: 10rem;
  position: absolute;
  bottom: 0;
  width: 100%;
@@ -85,29 +89,64 @@ footer {
 
 
 /* landing page */
+/**
+-------------------------------------------------------
+                     01. Navbar
+-------------------------------------------------------
+**/
+nav {
+ position: fixed;
+ background: #fff;
+ z-index: 1000;
+ width: 100%;
+ padding: 15px;
+ display: none;
+ -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+ -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+ box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+}
 
-.navbar {
-    margin-bottom: 0;
-    background-color: #f4511e;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-  }
+.nav-menu {
+ float: right;
+ line-height: 32px;
+ margin-bottom: 0;
+ padding-top:5px;
+ overflow: hidden;
+}
+
+nav ul li {
+ float: left;
+ margin-right: 15px;
+ font-size: 14px;
+ margin-left: 40px;
+}
+
+nav ul li a {
+ padding: 2px 0 0 0;
+ position: relative;
+ display: block;
+ font-size: 13px;
+ color: #1e1e1e;
+ font-family: sans-serif;
+ font-weight: 600;
+ line-height: 16px;
+ letter-spacing: 0.5px;
+ text-transform: capitalize;
+ -moz-transition: all 0.5s ease-in-out 0s;
+ -ms-transition: all 0.5s ease-in-out 0s;
+ -o-transition: all 0.5s ease-in-out 0s;
+ -webkit-transition: all 0.5s ease-in-out 0s;
+ transition: all 0.5s ease-in-out 0s;
+}
+
+.logo {
+ float: left;
+}
+.responsive {
+ display: none;
+ font-size: 23px;
+ cursor: pointer;
+}
 
 .grid-3 {
   display: grid;
@@ -196,6 +235,12 @@ padding-right: 1.1rem;
 
 
 /* end of gallery */
+
+
+/* contact us */
+.contact-form{
+
+}
 
 
 /* carousel */
